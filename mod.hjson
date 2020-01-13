@@ -1,6 +1,6 @@
-name: "example-mod"
-displayName: "[orange]Example[gold] Mod" //what displays in the mod selection menu
-author: "Anuke"
-description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
-version: "3.0"
+name: "Multi-SmelterMod"
+displayName: "Multi-SmelterMod"
+author: "Base"
+description: "A mod for Mindustry that adds a multi-smelter to make silicon faster."
+version: "1.0"
 minGameVersion: "101"
