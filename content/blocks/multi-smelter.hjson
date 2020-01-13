@@ -9,7 +9,7 @@ hasItems: true
 craftTime: 15
 updateEffect: smeltsmoke
 consumes: {
-  power: 3
+  power: 1.8
   items: {
     items: [
       sand/1
@@ -18,7 +18,7 @@ consumes: {
   }
   liquid: {
     liquid: slag
-    amount: 2
+    amount: 0.0666
   }
 }
 requirements: [
