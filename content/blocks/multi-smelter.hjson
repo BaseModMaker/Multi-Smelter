@@ -1,33 +1,34 @@
 type: GenericSmelter
-name: Electrum Forge
-description: Combines molten silver and gold powder to produce electrum.
+name: Multi-smelter
+description: combines sand and coal to make silicon and uses slag to smelt the mixture faster.
 liquidCapacity: 50
-size: 2
+size: 3
 hasPower: true
 hasLiquids: true
 hasItems: true
-craftTime: 60
+craftTime: 15
 updateEffect: smeltsmoke
 consumes: {
-  power: 0.7
+  power: 3
   items: {
     items: [
-      gold-powder/2
+      sand/1
+      coal/1
     ]
   }
   liquid: {
-    liquid: molten-silver
-    amount: 1
+    liquid: slag
+    amount: 2
   }
 }
 requirements: [
-  lead/50
-  thorium/80
-  silicon/60
-  silver/50
+  lead/100
+  graphite/25
+  titanium/100
+  silicon/50
 ]
 category: crafting
-research: silver-crucible
+research: multi-press
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: electrum/1
+outputItem: silicon/1
