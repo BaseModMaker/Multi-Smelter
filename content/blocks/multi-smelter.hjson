@@ -1,7 +1,7 @@
 type: GenericSmelter
 name: Multi-smelter
 description: combines sand and coal to make silicon and uses slag to smelt the mixture faster.
-liquidCapacity: 50
+liquidCapacity: 10
 size: 3
 hasPower: true
 hasLiquids: true
