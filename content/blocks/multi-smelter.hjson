@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Multi-smelter
-description: combines sand and coal to make silicon and uses slag to smelt the mixture faster.
+description: combines sand and oil to make silicon faster.
 liquidCapacity: 10
 size: 3
 hasPower: true
@@ -13,11 +13,10 @@ consumes: {
   items: {
     items: [
       sand/1
-      coal/1
     ]
   }
   liquid: {
-    liquid: slag
+    liquid: oil
     amount: 0.06667
   }
 }
