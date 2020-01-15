@@ -1,2 +1,2 @@
 # Multi-Smelter
-Adds a multi-smelter to mindustry to smelt sand and coal faster but requires more power and slag to heat the mixture faster
+Adds a multi-smelter to mindustry to smelt silicon faster using sand and oil but requires additional power. 
